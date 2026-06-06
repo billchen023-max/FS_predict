@@ -19,10 +19,10 @@ The final prediction model was developed using an XGBoost linear booster and eva
 
 ## Repository contents
 
-* `app.R`: Source code for the Shiny web application
-* `model/`: Trained model object and supporting files
-* `R/`: Functions used for preprocessing and prediction
-* `example/`: Example input data
+* `app.R`: Source code for the interactive Shiny prediction application
+* `FINAL_reduced6_xgb_model.rds`: Trained six-variable XGBoost-linear prediction model
+* `FINAL_reduced6_features.rds`: Predictor names and feature configuration
+* `FINAL_reduced6_threshold_youden.rds`: Classification threshold determined using the Youden index
 * `README.md`: Project documentation
 * `LICENSE`: Open-source license
 
